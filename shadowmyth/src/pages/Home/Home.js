@@ -21,7 +21,7 @@ const Home = () => {
       <div className="download-button-container">
         <a
           className="download-button"
-          href="https://drive.google.com/uc?export=download&id=1IK8c6G9-nP0avWfkGfDocvF7dtvqxAkH"
+          href="https://drive.google.com/uc?export=download&id=1aRXIrwnGfma24xRh_HBbvvDdS5uRP428"
            target="_blank"
           rel="noopener noreferrer"
         >
