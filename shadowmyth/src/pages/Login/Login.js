@@ -11,14 +11,14 @@ const Login = ({ onLogin }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Credenciais temporárias
+    
     const validEmail = 'user@example.com';
     const validPassword = 'password123';
 
-    // Verificar se o e-mail e senha são válidos
+    
     if (email === validEmail && password === validPassword) {
-      onLogin();  // Define o usuário como logado
-      navigate('/');  // Redireciona para a página inicial
+      onLogin();  
+      navigate('/');  
     } else {
       setError('E-mail ou senha incorretos');
     }

@@ -5,7 +5,7 @@ import ArticleCard from '../../components/ArticleCard';
 
 const Home = () => {
   const articles = [
-    { id: 1, title: 'Lançamento do Novo Jogo', description: 'O jogo mais aguardado do ano está aqui!' },
+    { id: 1, title: 'Lançamento Oficial: PokeLauncher', description: 'O PokeLauncher chegou, trazendo a experiência definitiva para os fãs de Pokémon!!' },
     { id: 2, title: 'Atualização Importante', description: 'Corrigimos bugs e melhoramos o desempenho.' },
     { id: 3, title: 'Entrevista com o CEO', description: 'Saiba mais sobre o futuro da ShadowMyth.' },
   ];

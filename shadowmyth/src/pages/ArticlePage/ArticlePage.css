@@ -1,38 +1,36 @@
-/* Estilos para a página de artigo */
 .article-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-    background-color: #f9f9f9;
-    min-height: 80vh;
-  }
-  
-  .article-content {
-    max-width: 800px;
-    width: 100%;
-    padding: 30px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-    border: 2px solid #6A0DAD;
-  }
-  
-  .article-content h1 {
-    color: #6A0DAD;
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .article-content p {
-    color: #333;
-    line-height: 1.6;
-    font-size: 1.1rem;
-    text-align: justify;
-  }
-  
-  .article-content p + p {
-    margin-top: 15px; /* Espaçamento entre parágrafos */
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #f9f9f9;
+  min-height: 80vh;
+}
+
+.article-content {
+  max-width: 800px;
+  width: 100%;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border: 2px solid #6A0DAD;
+}
+
+.article-content h1 {
+  color: #6A0DAD;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.article-content p {
+  color: #333;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.article-content p + p {
+  margin-top: 15px; /* Espaçamento entre parágrafos */
+}
