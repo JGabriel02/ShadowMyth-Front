@@ -1,0 +1,17 @@
+/* Estilos para a página Novidades */
+.news {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .news h2 {
+    color: #6A0DAD;
+  }
+  
+  .news-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
